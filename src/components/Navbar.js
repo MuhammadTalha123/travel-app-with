@@ -7,7 +7,7 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo'>
-                        TRVL
+                        TRVL <i className="fab fa-affiliatetheme"></i>
                     </Link>
                 </div>
             </nav>
