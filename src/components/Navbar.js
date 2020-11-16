@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
@@ -7,7 +7,7 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo'>
-                        TRVL <i className="fab fa-affiliatetheme"></i>
+                        TRVL <i className="fab fa-typo3"></i>
                     </Link>
                 </div>
             </nav>
