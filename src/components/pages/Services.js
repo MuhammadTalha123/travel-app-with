@@ -3,9 +3,9 @@ import '../../App.css';
 import Cards from '../Cards'
 
 export default function Services() {
-  return <>
+  return (<>
   <h1 className='services'>SERVICES</h1>
   <Cards/>
-  </>;
+  </>);
 
 }
