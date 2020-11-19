@@ -5,7 +5,7 @@ import '../../App.css';
 export default function SignUp() {
   return <>
   <div className='sign-up'>
-  <h1 >SIGH UP PAGE</h1>
+  <h1 >SIGN UP PAGE</h1>
   <form>
   <label>Name</label><br/>
   <input type='text' placeholder='Enter your Name' /><br/>
