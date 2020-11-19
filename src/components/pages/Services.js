@@ -38,13 +38,13 @@ export default function Services() {
               src={Ser4}
               text='Jheel Saif-ul-malook Pakistan`s most beautiful lake'
               label='Naran'
-              path='/products'
+              path='/services'
             />
             <CardItem
               src={Ser5}
               text='A historical place in lahore is shahi qillah empire of mughals  '
               label='Shahi Qillah'
-              path='/sign-up'
+              path='/services'
             />
           </ul>
         </div>

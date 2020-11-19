@@ -18,13 +18,13 @@ export default function Products() {
               src={Car1}
               text='APV our best tour car with more comfort'
               label='APV'
-              path='/services'
+              path='/products'
             />
             <CardItem
               src={Car2}
               text='One of our best luxury car for family'
               label='Luxury'
-              path='/services'
+              path='/products'
             />
           </ul>
           <ul className='cards__items'>
@@ -32,7 +32,7 @@ export default function Products() {
               src={Car3}
               text='There are some important products thath we use in travel'
               label='Products'
-              path='/services'
+              path='/products'
             />
             <CardItem
               src={Car4}
@@ -44,7 +44,7 @@ export default function Products() {
               src={Car5}
               text='Its very important to kepp food for good health'
               label='Food'
-              path='/sign-up'
+              path='/products'
             />
           </ul>
         </div>
