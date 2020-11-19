@@ -7,6 +7,8 @@ export default function SignUp() {
   <div className='sign-up'>
   <h1 >SIGH UP PAGE</h1>
   <form>
+  <label>Name</label><br/>
+  <input type='text' placeholder='Enter your Name' /><br/>
     <label>Email</label><br/>
     <input type='email' placeholder='Enter your Email' /><br/>
     <label>Password</label><br/>

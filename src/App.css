@@ -54,6 +54,8 @@
     padding: 10px;
     outline-style: none;
     outline: none;
+    text-align: center;
+    justify-content: center;
   }
 
   .submitbtn:hover {
