@@ -24,7 +24,6 @@
   .services {
     color: #fff;
     padding: 180px;
-    
   }
  .services h1{
    font-size: 100px;
@@ -38,25 +37,37 @@
       
     }
    .services h1{
-     font-size: 55px;
+     font-size: 40px;
      text-transform: uppercase;
    }
-   
+  }
 
+  .section2{
+    background: url('./images/img-1.jpg') no-repeat ;
+    background-size: cover;
+    background-position: center;
+    background-origin: content-box;
   }
   
   .products {
-    background-image: url('./images/img-1.jpg');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
     color: #fff;
-    font-size: 60px;
+    padding: 180px;
   }
 
-  @media screen and (max-width:650px){
-    .products h1{
-      font-size: 60px;
+  .products h1{
+    font-size: 100px;
+    text-transform: uppercase;
+  }
+
+  @media screen and (max-width:600px){
+    .products {
+      color: #fff;
+      padding: 140px;
+      
+    }
+   .products h1{
+     font-size: 40px;
+     text-transform: uppercase;
    }
   }
   
