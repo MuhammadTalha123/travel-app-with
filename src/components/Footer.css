@@ -31,7 +31,7 @@
   
   .footer-subscription-text {
     margin-bottom: 24px;
-    font-size: 20px;
+    font-size: 0px;
   }
   
   .footer-input {
@@ -140,6 +140,7 @@
   @media screen and (max-width: 820px) {
     .footer-links {
       padding-top: 2rem;
+     
     }
   
     .footer-input {
@@ -159,5 +160,13 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width:400px) {
+    .footer-links{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+     
+    }
   }
