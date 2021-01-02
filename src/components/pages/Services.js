@@ -10,7 +10,7 @@ import Ser5 from '../../images/ser5.jpg';
 
 export default function Services() {
   return (<>
-  <section>
+  <section className="section">
   <div className='services'>
   <h1 >SERVICES</h1>
   </div>
