@@ -20,7 +20,7 @@ video {
   
   .hero-container > h1 {
     color: #fff;
-    font-size: 100px;
+    font-size: 88px;
     margin-top: -100px;
   }
   
@@ -31,6 +31,7 @@ video {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
   }
+
   
   .hero-btns {
     margin-top: 32px;
@@ -54,11 +55,11 @@ video {
   @media screen and (max-width: 768px) {
     .hero-container > h1 {
       font-size: 50px;
-      margin-top: -100px;
+     
     }
   
     .hero-container > p {
-      font-size: 30px;
+      font-size: 32px;
     }
   
     .btn-mobile {
@@ -68,5 +69,24 @@ video {
   
     .btn {
       width: 100%;
+    }
+  }
+ 
+  @media screen and (max-width:550px) {
+    .hero-container > h1 {
+      font-size: 25px;
+     
+    }
+    .hero-container > p {
+      font-size: 19px;
+    }
+  }
+  @media screen and (max-width:300px) {
+    .hero-container > h1 {
+      font-size: 25px;
+     
+    }
+    .hero-container > p {
+      font-size: 18px;
     }
   }
