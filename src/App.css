@@ -81,17 +81,31 @@
     color: #fff;
 
   }
+  .sign-up h1{
+     margin-bottom: 35px;
+      font-size: 55px;
+  }
+  @media screen and (min-width:700px){
+    .sign-up h1{
+      
+       font-size: 75px;
+   }
+  }
 
   .submitbtn {
     color:  rgb(236, 162, 23);
-    margin: 11px 107px 0px;
-    border-radius: 10px;
+    
+    border-radius: 5px;
     border: 3px solid rgb(236, 162, 23);
     padding: 10px;
+    margin-top: 16px;
+    width: 100%;
     outline-style: none;
     outline: none;
     text-align: center;
     justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
   }
 
   .submitbtn:hover {
@@ -102,16 +116,25 @@
 
   input {
     padding: 10px;
-    width: auto;
+    width: 100%;
     outline: none;
     outline-style: none;
     border-radius: 10px;
     border: 3px solid rgb(236, 162, 23);
     font-size: 25px;
+    box-sizing: border-box;
+    
   }
+
 
   input:hover{
     color: #fff;
     border: 3px solid rgb(255, 255, 255);
     background-color:  rgb(236, 162, 23);
+  }
+  @media screen and (max-width: 300px){
+         
+    form {
+      margin: 0 20px;
+    }
   }
