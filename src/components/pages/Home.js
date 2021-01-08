@@ -5,11 +5,11 @@ import HeroSection from '../HeroSection';
 import Footer from '../Footer';
 import '../Cards.css';
 import CardItem from '../CardItem';
-import Car1 from '../../images/car1.jpg';
-import Car2 from '../../images/car2.jpg';
-import Car3 from '../../images/car3.jpg';
-import Car4 from '../../images/car4.jpg';
-import Car5 from '../../images/car5.jpg';
+import Img9 from '../../images/img-9.jpg';
+import Img2 from '../../images/img-2.jpg';
+import Img3 from '../../images/img-3.jpg';
+import Img4 from '../../images/img-4.jpg';
+import Img8 from '../../images/img-8.jpg';
 
 function Home() {
   return (
@@ -20,36 +20,36 @@ function Home() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src={Car1}
-              text='APV our best tour car with more comfort'
-              label='APV'
-              path='/products'
+              src={Img9}
+              text='Explore the hidden waterfall deep inside the Amazon Jungle'
+              label='Adventure'
+              path='/'
             />
             <CardItem
-              src={Car2}
-              text='One of our best luxury car for family'
+              src={Img2}
+              text='Travel through the Islands of Bali in a Private Cruise'
               label='Luxury'
-              path='/products'
+              path='/'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src={Car3}
-              text='There are some important products thath we use in travel'
-              label='Products'
-              path='/products'
+              src={Img3}
+              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              label='Mystery'
+              path='/'
             />
             <CardItem
-              src={Car4}
-              text='Capture our best moments its impotant to keep good camera'
-              label='Camera'
-              path='/products'
+              src={Img4}
+              text='Experience Football on Top of the Himilayan Mountains'
+              label='Adventure'
+              path='/'
             />
             <CardItem
-              src={Car5}
-              text='Its very important to kepp food for good health'
-              label='Food'
-              path='/products'
+              src={Img8}
+              text='Ride through the Sahara Desert on a guided camel tour'
+              label='Adrenaline'
+              path='/'
             />
           </ul>
         </div>

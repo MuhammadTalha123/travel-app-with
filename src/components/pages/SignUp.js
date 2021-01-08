@@ -37,9 +37,9 @@ function onSubmit() {
   <form>
   <label className="sign_up_label">Name</label><br/>
   <input className="sign_up_input" type='text' onChange={namefun} placeholder='Enter your Name' /><br/>
-    <label>Email</label><br/>
+    <label className="sign_up_label">Email</label><br/>
     <input className="sign_up_input" type='email' onChange={emailfun} placeholder='Enter your Email' /><br/>
-    <label>Password</label><br/>
+    <label className="sign_up_label">Password</label><br/>
     <input className="sign_up_input" type='password' onChange={passfun} placeholder="Enter your Password" /><br/>
     <input className='submitbtn' type='submit' onClick={onSubmit} />
   </form>
